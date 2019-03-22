@@ -512,8 +512,14 @@ img.hover-shadow {
 img.SS{
 	margin: auto;
 	width:30%;
+	;
+
 
 }
+img.SS:hover{
+cursor:pointer;
+}
+
 table.pad2{
 	padding: 10px;
 	margin:auto;
