@@ -1,0 +1,116 @@
+<!Doctype HTML>
+<html>
+<head>
+<title>Blueline</title>
+<link rel="stylesheet" type="text/css" href="mystyleAboutUs2.css">
+<link rel="shortcut icon" href="icon2.ico" type="image/x-icon">
+</head>
+<body background="BG3Mobile.png">
+  <div class="fadein">
+<a href="MenuMobile.html"><img class="HamMenu" src="HamMenu2.png"></a>
+
+<div class="example5Mobile">Photos</div>
+
+<img class="PhotosMobile1" src="SS1Mobile.jpg">
+<img class="PhotosMobile" src="SS2Mobile.jpg">
+<img class="PhotosMobile" src="SS3Mobile.jpg">
+<img class="PhotosMobile" src="SS7Mobile.jpg">
+<img class="PhotosMobile" src="SS9Mobile.jpg">
+<img class="PhotosMobile" src="SS6Mobile.jpg">
+<img class="PhotosMobile" src="SS4Mobile.jpg">
+<img class="PhotosMobile" src="SS10Mobile.jpg">
+
+
+
+</body>
+</html>
+
+
+<!--
+  <div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 8</div>
+      <img class="display" src="SS1.jpg">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 8</div>
+      <img class="display" src="SS2.jpg">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 8</div>
+      <img class="display" src="SS3.jpg">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 8</div>
+      <img class="display" src="SS7.jpg">
+    </div>
+      <div class="mySlides">
+      <div class="numbertext">5 / 8</div>
+      <img class="display" src="SS9.JPG">
+    </div>
+      <div class="mySlides">
+      <div class="numbertext">6 / 8</div>
+      <img class="display" src="SS6.jpg">
+    </div>
+      <div class="mySlides">
+      <div class="numbertext">7 / 8</div>
+      <img class="display" src="SS4.jpg">
+    </div>
+      <div class="mySlides">
+      <div class="numbertext">8 / 8</div>
+      <img class="display" src="SS10.JPG">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+  </div>
+
+<script>
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
