@@ -170,11 +170,8 @@ div.email{
 
 
 div.example4Mobile{
-<<<<<<< HEAD
-	-webkit-text-stroke-width: 3px;
-=======
-	-webkit-text-stroke-width: 5px;
->>>>>>> 787e014d08a3663ac30e9a34a48dfa98e13aa3b4
+
+	-webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
 	font-family: "Impact", Charcoal, sans-serif;
 	font-size: 100px;
@@ -580,7 +577,7 @@ img.PhotosMobile{
 }
 
 div.example5Mobile{
-	-webkit-text-stroke-width: 3px;
+	-webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
 	font-family: "Impact", Charcoal, sans-serif;
 	font-size: 100px;
