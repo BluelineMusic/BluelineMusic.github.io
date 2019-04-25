@@ -580,7 +580,7 @@ img.PhotosMobile{
 }
 
 div.example5Mobile{
-	-webkit-text-stroke-width: 5px;
+	-webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: white;
 	font-family: "Impact", Charcoal, sans-serif;
 	font-size: 100px;
